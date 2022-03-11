@@ -27,7 +27,7 @@ img {
 }
 
 .card-container {
-	padding-top: 30px;
+  padding-top: 100px;
   perspective: 1000;
   margin: 0 auto 10px;
   width: 800px;
@@ -63,16 +63,17 @@ img {
 
 .card {
   position: relative;
-  width: 500px;
-  height: 550px;
+  width: 800px;
+  height: 1200px;
   background: white;
   border-radius: 5px;
   box-shadow: 0 40px 110px rgba(0, 0, 0, 0.45);
   overflow: hidden;
   transition: 0.5s;
   transform-style: preserve-3d;
-  margin-left: 150px;
-    margin-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+    
 }
 .card:hover {
   transform: rotateY(180deg);
